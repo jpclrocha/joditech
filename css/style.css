@@ -1,0 +1,187 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font: 5rem;
+}
+
+img {
+    vertical-align: middle;
+}
+
+nav a, footer a{
+    color: #EDEDED;
+    text-decoration: none;
+    transition: .3s;
+}
+
+nav a:hover{
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #23232e;
+    height: 10vh;
+    flex-wrap: wrap;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+}
+
+.menu li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+body{
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #0a0408 0%, #6e1597 74%);
+    height: 200vh;
+}
+
+.container{
+    display: grid;
+    grid-gap: 5px;
+    width: 100%;
+    height: 90vh;
+    padding: 1px;
+    vertical-align: middle;
+    margin-bottom: 10vh;
+}
+
+.main-content{
+    grid-area: main;
+    width: 50vw;
+    height: 68vh;
+    text-align: left;
+    color: #EDEDED;
+    font-size: 32px;
+    font-family: 'Roboto Mono', monospace;
+    align-self: center;
+    justify-self: center;
+}
+
+.img_main{
+    grid-area: img;
+    width: 40vw;
+    height: 68vh;
+    align-self: center;
+}
+
+.areas{
+    grid-template-areas:
+    "main main img"
+    "main main img"
+    "main main img"
+    ;
+}
+
+#arrow_down{
+    width: 64px;
+}
+
+.slides_button {
+    cursor: pointer;
+    background-color: #da24c1;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16pt;
+    padding: 15px 32px;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+}
+
+.slides_button a{
+    color: black;
+    text-decoration: none;
+}
+
+.cards{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+iframe{
+    padding-top: 5px;
+    width: 400px;
+    height: 225px;
+    display: block;
+    margin: 0 auto;
+}
+
+h3{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16pt;
+}
+
+.cards p{
+    padding: 15px;
+    color: #23232e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+.left-top{
+    height: fit-content;
+    width: 30vw;
+}
+
+.mid-top{
+    height: fit-content;
+    width: 30vw;
+}
+
+.right-top{
+    height: fit-content;
+    width: 30vw;
+}
+
+.left-down{
+    height: fit-content;
+    width: 30vw;
+}
+
+.mid-down{
+    height: fit-content;
+    width: 30vw;
+}
+
+
+.right-down{
+    height: fit-content;
+    width: 30vw;
+}
+
+.header{
+    margin-top: 5vh;
+    color: white;
+    text-align: center;
+}

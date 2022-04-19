@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentários</title>
+    <link rel="shortcut icon" href="../images/clapperboard.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/filmes.css">
 </head>
-<body>
+<body style="height: 100%;">
     <header>
         <nav>
-            <a class="logo" href="../index.html">&lt;/jodiflix&gt;</a>
+            <a class="logo" href="../index.html">&lt;/joditech&gt;</a>
             <ul class="menu">
                 <li><a href="filmes.html" target="_self">Filmes</a></li>
                 <li><a href="series.html" target="_self">Séries</a></li>
@@ -21,8 +21,55 @@
     </header>
 
     <main>
+        <div>
+            <h1 class="header">Documentários sobre tecnologia</h1>
+            <div class="cards">
+                <div class="conteudo" onmouseenter="mostra('1')" onmouseleave="some('1')">
+                    <img src="../images/billgates.jpeg" alt="Billgates" class="img">
+                    <h3>O Código Bill Gates</h3>
+                    <p class="sumido" id="1">O bilionário fundador da Microsoft, Bill Gates, tem a mente desvendada na minissérie documental O Código Bill Gates. O documentário dividido em três partes faz uma breve apresentação sobre o executivo e a trajetória da companhia, enquanto toda a sua inteligência é usada também para transformar o mundo.</p>
+                </div>
 
+                <div class="conteudo" onmouseenter="mostra('2')" onmouseleave="some('2')">
+                    <img src="../images/eradosdados.jpeg" alt="EraDosDados" class="img">
+                    <h3>A Era dos Dados</h3>
+                    <p class="sumido" id="2">A Era dos Dados é uma série documental que mostra evidências surpreendentes de como todos nós, sem exceção, estamos conectados de alguma forma. Em seis episódios, o apresentador e PhD em história da ciência, Latif Nasser, viaja pelo mundo conversando com especialistas em diversos temas que vão desde a areia do Deserto do Saara e o clima da Floresta Amazônica, até redes sociais, conexão na nuvem e bombas nucleares.</p>
+                </div>
+
+                <div class="conteudo" onmouseenter="mostra('3')" onmouseleave="some('3')">
+                    <img src="../images/explicandoAmente.webp" alt="explicandoAmente" class="img">
+                    <h3>Explicando A Mente</h3>
+                    <p class="sumido" id="3">Na saga Explicando A Mente, que estreou na Netflix em 2019, conhecemos tudo o que se passa dentro de nossa cabeça, desconstruindo tudo o que imaginamos sobre o cérebro, um dos órgãos mais importantes do corpo humano. Em cinco episódios a produção vai debater sobre a memória, sonhos, ansiedade, meditação e drogas psicodélicas.</p>
+                </div>
+
+                <div class="conteudo" onmouseenter="mostra('4')" onmouseleave="some('4')">
+                    <img src="../images/dilemaRedes.jpg" alt="dilemaRedes" class="img">
+                    <h3>O Dilema das Redes </h3>
+                    <p class="sumido" id="4">Todo mundo já considerou estranha a “coincidência” de ver nas redes sociais exatamente o tema que estava conversando com os amigos. Tem até a situação mais bizarra ainda de quando elas praticamente “adivinham” o estamos cogitando comprar. Mas você já parou para pensar como esse conteúdo chega até você? O documentário da Netflix, O Dilema das Redes, mostra que o acaso não existe e as plataformas das Big Techs têm sido usadas para prever o comportamento humano e impulsionar mudanças – de preferência aquelas que dão mais lucro. 
+                    </p>
+                </div>
+
+                <div class="conteudo" onmouseenter="mostra('5')" onmouseleave="some('5')">
+                    <img src="../images/atari.jpg" alt="Atari Game Over" class="img">
+                    <h3>Atari: Game Over</h3>
+                    <p class="sumido" id="5">Atari: Game Over explora a popular lenda urbana conhecida como "The Great Video Game Burial of 1983". Conforme a história continua, a Atari Corporation, confrontada com uma resposta extremamente negativa ao E.T. videogame, descartou milhões de cartuchos de jogos não vendidos, enterrando-os na pequena cidade de Alamogordo, Novo México.</p>
+                </div>
+
+                <div class="conteudo" onmouseenter="mostra('6')" onmouseleave="some('6')">
+                    <img src="../images/deepweb.jpg" alt="Deep Web" class="img">
+                    <h3>Deep Web</h3>
+                    <p class="sumido" id="6">Do mesmo diretor de Downloaded (filme, 2013), Alex Winter, o documentário Deep Web foca nos eventos relacionados com o fechamento do site Silk Road (uma espécie de eBay da deep web) e a prisão do seu fundador, Ross Ulbricht. Em Downloaded, a discussão gira em torno da revolução digital na música e suas consequências no mundo. No documentário Deep Web, o olhar é mais embaixo, voltando-se para o submundo da internet, narrado por Keanu Reeves.
+
+                    A importância fundamental desse documentário é a propagação de entendimento sobre o funcionamento da deep web e dark web, agregando conceitos emergentes que potencializam as transações nesse ambiente, como o Bitcoin, e a discussão sobre o seu impacto social.</p>
+                </div>
+            </div>
     </main>
-
+    
+    <footer>
+        <div class="footer" id="footer">
+            <a href="card.html" target="_self">Feito por João Laranjeira e Dimitri de Melo</a>
+        </div>
+    </footer>
+    <script src="../scripts/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="shortcut icon" href="../images/clapperboard.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="logo" href="../index.html">&lt;/joditech&gt;</a>
+            <ul class="menu">
+                <li><a href="filmes.html" target="_self">Filmes</a></li>
+                <li><a href="series.html" target="_self">Séries</a></li>
+                <li><a href="documentarios.html" target="_self">Documentários</a></li>
+                <li><a href="perguntas.html" target="_self">Perguntas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="formulario">
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" class="input" name="nome" id="nome" placeholder="João"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" class="input" name="email" id="email" placeholder="exemplo@gmail.com">
+                <br>
+                <textarea name="texto" cols="70" rows="10" id="mensagem" placeholder="Digite seu texto aqui"></textarea><br>
+                <input type="submit" class="submit" value="Enviar" onclick="enviar()">
+            </form>
+        </div>
+    </main>
+    <script src="../scripts/ama.js"></script>
+</body>
+</html>

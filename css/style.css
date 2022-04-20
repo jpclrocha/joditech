@@ -126,9 +126,10 @@ body{
 }
 
 iframe{
+    border-radius: 20px;
     padding-top: 5px;
-    width: 400px;
-    height: 225px;
+    width: 350px;
+    height: 200px;
     display: block;
     margin: 0 auto;
 }
@@ -191,6 +192,20 @@ footer{
     margin: 0 auto;
     border-radius: 20px;
 }
+
+.formulario{
+    display: flex;
+    height: 70vh;
+    width: 98.9vw;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+label{
+    font-size: 1.2rem;
+    color: white;
+}
+
 @media (max-width: 1200px){
     .cards{
         display: flex;
